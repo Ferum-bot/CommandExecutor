@@ -1,4 +1,4 @@
-import Greeter from './Greeter'
+import {CommandExecutor} from "./app/command-executor";
 
-const greeter = new Greeter('Matvey Popov', 'CommandExecutor')
-greeter.sayHello()
+const application = new CommandExecutor()
+application.start()
