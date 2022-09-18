@@ -1,4 +1,4 @@
-import {CommandExecutor} from "./app/command-executor";
+import {CommandExecutorApplication} from "./app/command-executor-application";
 
-const application = new CommandExecutor()
+const application = new CommandExecutorApplication()
 application.start()
