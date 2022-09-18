@@ -8,8 +8,11 @@ Easily extensible and support executor for interfacing with third party software
 * TypeScript
 
 ## Requirements:
-* 
+* Established ffmpeg on your machine as terminal tool
+* Node
 ## How to use:
-1. 
+1. Build project by running ``npm run build``
+2. Start application by running ``npm run start``
+3. Enjoy
 
 #### Created and Powered by Ferum-bot.
